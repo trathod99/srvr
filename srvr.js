@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 // get dependencies
 var http = require('http');
 var fs = require('fs');

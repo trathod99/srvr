@@ -2,9 +2,8 @@
   "name": "Srvr",
   "version": "1.0.0",
   "description": "Launch a quick web server in the current directory at a port of your choosing.",
-  "main": "srvr.js",
-  "scripts": {
-    "test": "srvr"
+  "bin": {
+    "srvr":"srvr.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +17,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/trathod99/srvr/issues"
-  },
-  "homepage": "https://github.com/trathod99/srvr"
+  }
 }
