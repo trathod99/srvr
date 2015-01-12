@@ -1,0 +1,23 @@
+{
+  "name": "Srvr",
+  "version": "1.0.0",
+  "description": "Launch a quick web server in the current directory at a port of your choosing.",
+  "main": "srvr.js",
+  "scripts": {
+    "test": "srvr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/trathod99/srvr"
+  },
+  "keywords": [
+    "web",
+    "server"
+  ],
+  "author": "Tyler Rathod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trathod99/srvr/issues"
+  },
+  "homepage": "https://github.com/trathod99/srvr"
+}
