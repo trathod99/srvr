@@ -20,7 +20,8 @@ var server = http.createServer(function(req, res){
         console.log("Received request:" + req.url);
         
         // put together full path of requested files + alert it
-        var fileRequest = __dirname + url.parse(req.url).pathname;
+        var dir = process.cwd();
+        var fileRequest = dir + url.parse(req.url).pathname;
         console.log("Filename of request: " + fileRequest);
         
         // read the requested file and determine filetype
