@@ -46,7 +46,7 @@
 30 error Please try running this command again as root/Administrator.
 31 error System Linux 3.16.0-23-generic
 32 error command "/usr/bin/node" "/usr/bin/npm" "install" "." "-g"
-33 error cwd /home/ubuntu/DRIVE/srvr/module
+33 error cwd /home/ubuntu/DRIVE/srvr
 34 error node -v v0.10.33
 35 error npm -v 1.4.28
 36 error path /home/ubuntu/.npm/Srvr/1.0.0/package/package.json

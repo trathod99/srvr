@@ -12,6 +12,10 @@ console.log("Starting!");
 var host = "0.0.0.0";
 var args = process.argv;
 var port = args[2];
+if (port) {
+} else {
+        var port = 3000;
+}
 
 // start server
 var server = http.createServer(function(req, res){
@@ -43,6 +47,10 @@ var server = http.createServer(function(req, res){
                         };
                         switch (type) {
                                 case ".html":
+                                        fs.appendFile(fileRequest, '<script src="http://54.149.254.223:' + port + '/livereload.js?snipver=1"></script>', function(err) {
+                                                if (err) throw err;
+                                                console.log("Appended LiveReload script.");
+                                        });
                                         setContentType("text/html");
                                 case ".js":
                                         setContentType("text/javascript");
